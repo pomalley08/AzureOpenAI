@@ -5,6 +5,8 @@
     Retrieves all Azure OpenAI deployments and their deprecation dates.
 
     Requires Az.CognitiveServices and JoinModule to be installed.
+    Connect to Azure prior to running the script with:
+    Connect-AzAccount -Tenant 'xxxx-xxxx-xxxx-xxxx' -SubscriptionId 'yyyy-yyyy-yyyy-yyyy'
 #>
 
 # Get all OpenAI resources in the subscription

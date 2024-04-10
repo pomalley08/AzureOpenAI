@@ -1,6 +1,10 @@
 <#
 .SYNOPSIS
     Retrieves all Azure OpenAI deployments and their deprecation dates.
+.DESCRIPTION
+    Retrieves all Azure OpenAI deployments and their deprecation dates.
+
+    Requires Az.CognitiveServices and JoinModule to be installed.
 #>
 
 # Get all OpenAI resources in the subscription
